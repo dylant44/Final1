@@ -10,7 +10,9 @@ public class Main
 		// Asks user which game they want to play
 		Scanner sc = new Scanner(System.in);
 		int gameChoice = 0;
-		System.out.print("Welcome! Enter 1 to play Hangman, Enter 2 to play Battleship");
+		System.out.println("Welcome!");
+		System.out.println("Enter 1 to play Hangman");
+		System.out.println("Enter 2 to play Battleship");
 		gameChoice = sc.nextInt();
 		
 		// Sends user to the game they picked  
