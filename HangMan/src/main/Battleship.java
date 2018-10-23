@@ -106,7 +106,7 @@ public class Battleship
 			{
 				System.out.println("You have hit a ship!");
 	    	}		
-			else 
+			else if(shot[x] != ship1 || shot[x] != ship2 || shot[x] != ship3)
 			{
 				System.out.println("You have MISSED!");
 			}
